@@ -126,7 +126,6 @@ Which stands for:
 - `%r`: The first line of the request (appearing as `METHOD PATH PROTOCOL`, e.g. `GET /users/18411 HTTP/1.1`).
 - `%b`: The number of bytes sent.
 
-<<<<<<< HEAD
 **Note:** For `%r`: It is also possible to log one or more parts of the request line independently. For example, the format string `%m %U%q %H` will log the method, path, query-string, and protocol, resulting in exactly the same output as `%r`.
 
 ### Combined Log Format / ELF
@@ -144,6 +143,3 @@ h_l_u_t_r_s_b_"R"_"i"
 ```
 
 In our paper, we refer to Combined Log Format as ELF to easily distinguish between the two log format's acronyms. However, in this codebase, ELF is always referred to as Combined Log Format.
-=======
->Note: For `%r`: It is also possible to log one or more parts of the request line independently. For example, the format string `%m %U%q %H` will log the method, path, query-string, and protocol, resulting in exactly the same output as `%r`.
->>>>>>> 41bc5219d750f351daf0824df9418e7f114767b7
