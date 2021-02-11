@@ -1,0 +1,76 @@
+import random
+import parameters
+
+from utils import chance_choose
+
+common_statuses = [ 200, 204, 400, 401, 404, 500, 501 ]
+
+statuses = [
+    100,
+    101,
+    102,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    226,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    307,
+    308,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    421,
+    422,
+    423,
+    424,
+    426,
+    428,
+    429,
+    431,
+    444,
+    451,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    510,
+    511,
+    599
+]
+
+def gen_status(test_mode=False):
+    # Returns a common status 80% of the time
+    return chance_choose(random.choice(common_statuses), random.choice(statuses), parameters.frequency['common_status'])
