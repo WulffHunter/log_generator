@@ -1,6 +1,6 @@
 # Validation Log Converter
 
-These scripts may be helpful if you decide to convert your own logs into the format that can be used for translation. Here, we provide the scripts that we used to convert our validation logs. Script `./netsparker.py` was used to produce V<sub>A</sub.>; script `./acunetix.py` -- to produce V<sub>B</sub.>, and script `./elastic.py` -- to produce V<sub>C</sub.>.
+These scripts may be helpful if you decide to convert your own logs into the format that can be used for translation. Here, we provide the scripts that we used to convert our validation logs. Script `./netsparker.py` was used to produce V<sub>A</sub>; script `./acunetix.py` -- to produce V<sub>B</sub>, and script `./elastic.py` -- to produce V<sub>C</sub>.
 
 Requires Python 3. To install required packages run
 ```
