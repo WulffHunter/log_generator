@@ -1,6 +1,6 @@
 # Apache Log Translator
 
-This repository contains tools used for generating synthetic Apache logs and the tools needed to parse reference empirical logs, see [paper](TBD) "On Automatic Parsing of Log Records" for details. 
+This repository contains tools used for generating synthetic Apache logs and the tools needed to parse reference empirical logs, see [paper](https://arxiv.org/abs/2102.06320) "On Automatic Parsing of Log Records" for details. 
 
 ## Apache Fake Log Generator
 
@@ -13,6 +13,23 @@ For the tool used to parse real logs V<sub>A</sub>, V<sub>B</sub>, and V<sub>C</
 ## Sample Logs Used
 
 To view all of the sample log files used (including the three real log files, as well as the five generated log files mentioned in the paper), please visit the [data repository](https://doi.org/10.5281/zenodo.4536514).
+
+## Publication
+
+The details of the tool and the data are given in a [preprint](https://arxiv.org/abs/2102.06320). The publication will [appear](https://conf.researchr.org/details/icse-2021/icse-2021-New-Ideas-and-Emerging-Results/14/On-Automatic-Parsing-of-Log-Records) in proceedings of the International Conference on Software Engineering (ICSE’21). Please cite the tool and data as
+
+```bibtex
+@article{rand2021log,
+  author    = {Jared Rand and Andriy Miranskyy},
+  title     = {{On Automatic Parsing of Log Records}},
+  journal   = {CoRR},
+  volume    = {abs/2102.06320},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2102.06320},
+  archivePrefix = {arXiv},
+  eprint    = {2102.06320}
+}
+```
 
 ## License
 
