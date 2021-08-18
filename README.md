@@ -16,18 +16,16 @@ To view all of the sample log files used (including the three real log files, as
 
 ## Publication
 
-The details of the tool and the data are given in a [preprint](https://arxiv.org/abs/2102.06320). The publication will [appear](https://conf.researchr.org/details/icse-2021/icse-2021-New-Ideas-and-Emerging-Results/14/On-Automatic-Parsing-of-Log-Records) in proceedings of the International Conference on Software Engineering (ICSE’21). Please cite the tool and data as
+The details of the tool and the data are given in a [preprint](https://arxiv.org/abs/2102.06320). The final version of the paper was [published](https://www.doi.org/10.1109/ICSE-NIER52604.2021.00017) in proceedings of the International Conference on Software Engineering (ICSE’21); you can see the recording of the presentation [here](https://conf.researchr.org/details/icse-2021/icse-2021-New-Ideas-and-Emerging-Results/14/On-Automatic-Parsing-of-Log-Records). Please cite the tool and data as
 
 ```bibtex
-@article{rand2021log,
-  author    = {Jared Rand and Andriy Miranskyy},
-  title     = {{On Automatic Parsing of Log Records}},
-  journal   = {CoRR},
-  volume    = {abs/2102.06320},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2102.06320},
-  archivePrefix = {arXiv},
-  eprint    = {2102.06320}
+@INPROCEEDINGS{rand2021log,
+  author={Rand, Jared and Miranskyy, Andriy},
+  booktitle={2021 IEEE/ACM 43rd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)}, 
+  title={{On Automatic Parsing of Log Records}}, 
+  year={2021},
+  pages={41-45},
+  doi={10.1109/ICSE-NIER52604.2021.00017}
 }
 ```
 
